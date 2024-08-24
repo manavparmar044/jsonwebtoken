@@ -1,0 +1,22 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Light background for the page */
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+  }
+  
+  .home-text {
+    font-size: 2rem; /* Large, readable text */
+    color: #333; /* Dark gray for contrast */
+    background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
